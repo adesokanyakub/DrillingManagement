@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d295c76153317210feb13bd0a0490ef1" label="Drilling Operation" max_length="40" name="x_1842888_drilling_drilling_operation" type="collection">
+        <element choice="1" label="Operation Type" mandatory="true" max_length="40" name="operation_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cementing" sequence="2" value="cementing"/>
+                <element inactive_on_update="false" label="Workover" sequence="6" value="workover"/>
+                <element inactive_on_update="false" label="Logging" sequence="3" value="logging"/>
+                <element inactive_on_update="false" label="Drilling" sequence="0" value="drilling"/>
+                <element inactive_on_update="false" label="Completion" sequence="4" value="completion"/>
+                <element inactive_on_update="false" label="Casing" sequence="1" value="casing"/>
+                <element inactive_on_update="false" label="Testing" sequence="5" value="testing"/>
+            </choice>
+        </element>
+        <element label="Cost Estimate ($)" max_length="20" name="cost_estimate" type="decimal"/>
+        <element choice="1" default="planned" label="Status" max_length="40" name="operation_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Delayed" sequence="3" value="delayed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Crew Chief" max_length="100" name="crew_chief" type="string"/>
+        <element label="Actual Cost ($)" max_length="20" name="actual_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Well" mandatory="true" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element label="Start Depth (ft)" max_length="20" name="start_depth" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Drilling Supervisor" max_length="100" name="drilling_supervisor" type="string"/>
+        <element label="Duration (hours)" max_length="20" name="duration_hours" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Operation Name" mandatory="true" max_length="100" name="operation_name" type="string"/>
+        <element label="End Depth (ft)" max_length="20" name="end_depth" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <index name="index">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

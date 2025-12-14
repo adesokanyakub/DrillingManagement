@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Drilling &amp; Well Management">b6c8e0cd8169424db4c1b0d276e593b8</category>
+        <description>Manage drilling operations, well completion, and production optimization with real-time monitoring</description>
+        <device_type>browser</device_type>
+        <hint>Comprehensive drilling operations and well management system</hint>
+        <name/>
+        <order>100</order>
+        <roles>x_1842888_drilling.drilling_operator,x_1842888_drilling.drilling_supervisor,x_1842888_drilling.drilling_engineer,x_1842888_drilling.drilling_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-14 00:57:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce9e6ed70dc3400d8f6ff897de0bebfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drilling &amp; Well Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_app_application_ce9e6ed70dc3400d8f6ff897de0bebfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-14 00:57:15</sys_updated_on>
+        <title>Drilling &amp; Well Management</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1842888_drilling_drilling_operation</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Well Status on Operation Change</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[
+        // Auto-update well status based on operation status
+        var wellGr = new GlideRecord('x_1842888_drilling_well');
+        if (wellGr.get(current.well)) {
+            var operationStatus = current.operation_status.toString();
+            
+            if (operationStatus == 'in_progress' && wellGr.well_status != 'drilling') {
+                wellGr.well_status = 'drilling';
+                wellGr.update();
+                gs.addInfoMessage('Well status updated to Drilling');
+            } else if (operationStatus == 'completed') {
+                // Check if this is the last planned operation
+                var opGr = new GlideRecord('x_1842888_drilling_drilling_operation');
+                opGr.addQuery('well', current.well);
+                opGr.addQuery('operation_status', 'planned');
+                opGr.query();
+                
+                if (!opGr.hasNext() && wellGr.well_status != 'completed') {
+                    wellGr.well_status = 'completed';
+                    wellGr.completion_date = new GlideDateTime().getDisplayValue();
+                    wellGr.update();
+                    gs.addInfoMessage('Well status updated to Completed');
+                }
+            }
+        }
+    ]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 23:05:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff96be3f540c4b478b9864e4a5329505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Well Status on Operation Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_script_ff96be3f540c4b478b9864e4a5329505</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 23:05:18</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff96be3f540c4b478b9864e4a5329505"/>
+</record_update>

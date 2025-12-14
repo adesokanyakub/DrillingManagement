@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd1b27a953357210feb13bd0a0490e04" label="Safety &amp; Compliance" max_length="40" name="x_1842888_drilling_safety_compliance" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Permit/License Number" max_length="100" name="permit_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Title/Description" mandatory="true" max_length="200" name="title" type="string"/>
+        <element label="Investigation Required" max_length="40" name="investigation_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Personnel Involved" max_length="500" name="personnel_involved" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Responsible Person" max_length="100" name="responsible_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date for Completion" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="H2S Detected" max_length="40" name="h2s_detected" type="boolean"/>
+        <element choice="1" default="low" label="Severity Level" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="Estimated Cost Impact ($)" max_length="20" name="cost_impact" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Immediate Action Taken" max_length="2000" name="immediate_action" type="string"/>
+        <element choice="1" default="open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Overdue" sequence="3" value="overdue"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Drilling Operation" max_length="32" name="drilling_operation" reference="x_1842888_drilling_drilling_operation" type="reference"/>
+        <element label="Gas Concentration (ppm)" max_length="20" name="gas_concentration" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" mandatory="true" max_length="40" name="date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Lessons Learned" max_length="2000" name="lessons_learned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="200" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Corrective Action Required" max_length="2000" name="corrective_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Regulatory Body" max_length="100" name="regulatory_body" type="string"/>
+        <element attributes="encode_utf8=false" label="Well" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="incident_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Near Miss" sequence="3" value="near_miss"/>
+                <element inactive_on_update="false" label="Permit/License" sequence="7" value="permit"/>
+                <element inactive_on_update="false" label="Safety Meeting" sequence="0" value="safety_meeting"/>
+                <element inactive_on_update="false" label="Environmental Issue" sequence="4" value="environmental"/>
+                <element inactive_on_update="false" label="Safety Inspection" sequence="1" value="inspection"/>
+                <element inactive_on_update="false" label="Regulatory Compliance" sequence="5" value="regulatory"/>
+                <element inactive_on_update="false" label="Safety Incident" sequence="2" value="incident"/>
+                <element inactive_on_update="false" label="Training Record" sequence="6" value="training"/>
+            </choice>
+        </element>
+        <element label="Work Stopped" max_length="40" name="work_stopped" type="boolean"/>
+        <index name="index">
+            <element name="drilling_operation"/>
+        </index>
+        <index name="index2">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

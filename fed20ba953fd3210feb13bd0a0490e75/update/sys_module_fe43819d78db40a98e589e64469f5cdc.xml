@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:cfec48d2-a02e-48cd-b5de-132d270f485a",
+  "metadata": {
+    "timestamp": "2025-12-14T08:12:22.102Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.1.1",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1842888-drilling-and",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1842888-drilling-and@1.0.0?sys_scope_id=fed20ba953fd3210feb13bd0a0490e75",
+      "description": "[BUILD AGENT GENERATED]:  Managing drilling operations, well completion, and production optimization, involving integration with subsurface data and reservoir modeling, customized for site-specific needs.",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1842888-drilling-and@1.0.0?sys_scope_id=fed20ba953fd3210feb13bd0a0490e75"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1842888-drilling-and@1.0.0?sys_scope_id=fed20ba953fd3210feb13bd0a0490e75"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1842888_drilling/x-1842888-drilling-and/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 23:05:18</sys_created_on>
+        <sys_id>fe43819d78db40a98e589e64469f5cdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1842888_drilling/x-1842888-drilling-and/1.0.0/bom.json</sys_name>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_module_fe43819d78db40a98e589e64469f5cdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 23:05:18</sys_updated_on>
+    </sys_module>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="83954b6153317210feb13bd0a0490e8a" label="Geological Data" max_length="40" name="x_1842888_drilling_geological_data" type="collection">
+        <element label="Permeability (mD)" max_length="20" name="permeability" type="decimal"/>
+        <element label="Net to Gross Ratio" max_length="20" name="net_to_gross" type="decimal"/>
+        <element label="Bulk Density (g/cc)" max_length="20" name="bulk_density" type="decimal"/>
+        <element label="Depth To (ft)" mandatory="true" max_length="20" name="depth_to" type="decimal"/>
+        <element label="Formation Pressure (psi)" max_length="20" name="pressure" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Formation Name" mandatory="true" max_length="100" name="formation_name" type="string"/>
+        <element label="Water Saturation (%)" max_length="20" name="water_saturation" type="decimal"/>
+        <element label="Gamma Ray (API)" max_length="20" name="gamma_ray" type="decimal"/>
+        <element choice="1" label="Reservoir Quality" max_length="40" name="reservoir_quality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fair" sequence="2" value="fair"/>
+                <element inactive_on_update="false" label="Poor" sequence="3" value="poor"/>
+                <element inactive_on_update="false" label="Excellent" sequence="0" value="excellent"/>
+                <element inactive_on_update="false" label="Non-Reservoir" sequence="4" value="non_reservoir"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+            </choice>
+        </element>
+        <element label="Formation Temperature (°F)" max_length="20" name="temperature" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Well" mandatory="true" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element label="Hydrocarbon Shows" max_length="40" name="hydrocarbon_shows" type="boolean"/>
+        <element choice="1" label="Lithology" max_length="40" name="lithology" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sandstone" sequence="0" value="sandstone"/>
+                <element inactive_on_update="false" label="Conglomerate" sequence="4" value="conglomerate"/>
+                <element inactive_on_update="false" label="Limestone" sequence="1" value="limestone"/>
+                <element inactive_on_update="false" label="Coal" sequence="5" value="coal"/>
+                <element inactive_on_update="false" label="Marl" sequence="10" value="marl"/>
+                <element inactive_on_update="false" label="Chert" sequence="14" value="chert"/>
+                <element inactive_on_update="false" label="Tuff" sequence="18" value="tuff"/>
+                <element inactive_on_update="false" label="Anhydrite" sequence="7" value="anhydrite"/>
+                <element inactive_on_update="false" label="Quartzite" sequence="11" value="quartzite"/>
+                <element inactive_on_update="false" label="Gypsum" sequence="15" value="gypsum"/>
+                <element inactive_on_update="false" label="Schist" sequence="19" value="schist"/>
+                <element inactive_on_update="false" label="Mudstone" sequence="8" value="mudstone"/>
+                <element inactive_on_update="false" label="Granite" sequence="12" value="granite"/>
+                <element inactive_on_update="false" label="Arkose" sequence="16" value="arkose"/>
+                <element inactive_on_update="false" label="Siltstone" sequence="9" value="siltstone"/>
+                <element inactive_on_update="false" label="Basalt" sequence="13" value="basalt"/>
+                <element inactive_on_update="false" label="Breccia" sequence="17" value="breccia"/>
+                <element inactive_on_update="false" label="Shale" sequence="2" value="shale"/>
+                <element inactive_on_update="false" label="Salt" sequence="6" value="salt"/>
+                <element inactive_on_update="false" label="Dolomite" sequence="3" value="dolomite"/>
+            </choice>
+        </element>
+        <element label="Oil Saturation (%)" max_length="20" name="oil_saturation" type="decimal"/>
+        <element choice="1" label="Primary Fluid" max_length="40" name="fluid_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Water" sequence="2" value="water"/>
+                <element inactive_on_update="false" label="Oil &amp; Gas" sequence="3" value="oil_gas"/>
+                <element inactive_on_update="false" label="Oil" sequence="0" value="oil"/>
+                <element inactive_on_update="false" label="Dry" sequence="4" value="dry"/>
+                <element inactive_on_update="false" label="Gas" sequence="1" value="gas"/>
+            </choice>
+        </element>
+        <element label="Resistivity (ohm-m)" max_length="20" name="resistivity" type="decimal"/>
+        <element label="Neutron Porosity (%)" max_length="20" name="neutron_porosity" type="decimal"/>
+        <element label="Depth From (ft)" mandatory="true" max_length="20" name="depth_from" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2000" name="description" type="string"/>
+        <element label="Porosity (%)" max_length="20" name="porosity" type="decimal"/>
+        <element label="Gas Saturation (%)" max_length="20" name="gas_saturation" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="#D2B48C" label="Lithology Color Code" max_length="7" name="lithology_color" type="string"/>
+        <index name="index">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

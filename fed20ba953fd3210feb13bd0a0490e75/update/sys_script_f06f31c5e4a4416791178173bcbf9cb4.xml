@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1842888_drilling_drilling_parameter</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Drilling Parameter Validation and Alerts</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[
+        var alertTriggered = false;
+        var alertMessages = [];
+        
+        // Check Weight on Bit limits (typical range: 10,000 - 50,000 lbs)
+        if (current.wob && (current.wob < 5000 || current.wob > 60000)) {
+            alertMessages.push('WOB out of safe range: ' + current.wob + ' lbs');
+            alertTriggered = true;
+        }
+        
+        // Check Rate of Penetration (typical range: 10 - 200 ft/hr)
+        if (current.rop && (current.rop < 1 || current.rop > 300)) {
+            alertMessages.push('ROP unusual: ' + current.rop + ' ft/hr');
+            alertTriggered = true;
+        }
+        
+        // Check standpipe pressure (typical range: 1000 - 4000 psi)
+        if (current.standpipe_pressure && current.standpipe_pressure > 5000) {
+            alertMessages.push('High standpipe pressure: ' + current.standpipe_pressure + ' psi');
+            alertTriggered = true;
+        }
+        
+        // Check for H2S presence
+        if (current.h2s_reading && current.h2s_reading > 10) {
+            alertMessages.push('H2S detected: ' + current.h2s_reading + ' ppm - Safety protocol required');
+            alertTriggered = true;
+        }
+        
+        // Set alert status
+        current.alert_status = alertTriggered;
+        
+        if (alertTriggered) {
+            current.notes = (current.notes ? current.notes + '\n' : '') + 
+                           'ALERTS: ' + alertMessages.join('; ');
+            gs.addErrorMessage('Drilling parameter alerts generated - check readings');
+        }
+    ]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 23:05:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f06f31c5e4a4416791178173bcbf9cb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drilling Parameter Validation and Alerts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_script_f06f31c5e4a4416791178173bcbf9cb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 23:05:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f06f31c5e4a4416791178173bcbf9cb4"/>
+</record_update>

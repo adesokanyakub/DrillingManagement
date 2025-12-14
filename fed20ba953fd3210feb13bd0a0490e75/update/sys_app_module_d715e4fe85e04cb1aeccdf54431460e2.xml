@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Drilling &amp; Well Management">ce9e6ed70dc3400d8f6ff897de0bebfb</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1842888_drilling_drilling_operation">operation_status=in_progress^active=true<item display_value="In Progress" endquery="false" field="operation_status" goto="false" newquery="false" operator="=" or="false" value="in_progress"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <hint>View currently active drilling operations</hint>
+        <homepage/>
+        <image/>
+        <link_type>FILTER</link_type>
+        <map_page/>
+        <mobile_title/>
+        <mobile_view_name/>
+        <name>x_1842888_drilling_drilling_operation</name>
+        <order>410</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>false</require_confirmation>
+        <roles>x_1842888_drilling.drilling_supervisor,x_1842888_drilling.drilling_engineer,x_1842888_drilling.drilling_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-14 00:57:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d715e4fe85e04cb1aeccdf54431460e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Operations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_app_module_d715e4fe85e04cb1aeccdf54431460e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-14 00:57:15</sys_updated_on>
+        <timeline_page/>
+        <title>Active Operations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

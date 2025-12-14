@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca1b27a953357210feb13bd0a0490e7a" label="Drill String Configuration" max_length="40" name="x_1842888_drilling_drill_string" type="collection">
+        <element label="Depth From (ft)" mandatory="true" max_length="20" name="depth_from" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Drilling Operation" max_length="32" name="drilling_operation" reference="x_1842888_drilling_drilling_operation" type="reference"/>
+        <element choice="1" default="good" label="Condition" max_length="40" name="condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Retired" sequence="4" value="retired"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+                <element inactive_on_update="false" label="Fair" sequence="2" value="fair"/>
+                <element inactive_on_update="false" label="Poor" sequence="3" value="poor"/>
+            </choice>
+        </element>
+        <element choice="1" label="Component Type" mandatory="true" max_length="40" name="component_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Heavy Weight Drill Pipe" sequence="2" value="heavy_weight_pipe"/>
+                <element inactive_on_update="false" label="MWD/LWD" sequence="6" value="mwd_lwd"/>
+                <element inactive_on_update="false" label="Drill Pipe" sequence="3" value="drill_pipe"/>
+                <element inactive_on_update="false" label="Jar" sequence="7" value="jar"/>
+                <element inactive_on_update="false" label="Drill Bit" sequence="0" value="drill_bit"/>
+                <element inactive_on_update="false" label="Stabilizer" sequence="4" value="stabilizer"/>
+                <element inactive_on_update="false" label="Crossover" sequence="8" value="crossover"/>
+                <element inactive_on_update="false" label="Drill Collar" sequence="1" value="drill_collar"/>
+                <element inactive_on_update="false" label="Mud Motor" sequence="5" value="mud_motor"/>
+            </choice>
+        </element>
+        <element label="Component Weight (lbs/ft)" max_length="20" name="weight" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
+        <element label="Depth To (ft)" mandatory="true" max_length="20" name="depth_to" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Configuration Name" mandatory="true" max_length="100" name="configuration_name" type="string"/>
+        <element default="true" label="Currently In Use" max_length="40" name="active" type="boolean"/>
+        <element label="Outer Diameter (inches)" mandatory="true" max_length="20" name="outer_diameter" type="decimal"/>
+        <element label="Inner Diameter (inches)" max_length="20" name="inner_diameter" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Model/Part Number" max_length="100" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Connection Type" max_length="50" name="connection_type" type="string"/>
+        <element label="Total String Length (ft)" mandatory="true" max_length="20" name="total_length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Total Weight (lbs)" max_length="20" name="total_weight" type="decimal"/>
+        <element label="Component Length (ft)" mandatory="true" max_length="20" name="length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="100" name="serial_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Well" mandatory="true" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Steel Grade" max_length="50" name="grade" type="string"/>
+        <index name="index">
+            <element name="drilling_operation"/>
+        </index>
+        <index name="index2">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

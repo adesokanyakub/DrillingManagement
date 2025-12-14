@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="incident_type" table="x_1842888_drilling_safety_compliance" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>incident_type</element>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_type</sys_name>
+            <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+            <sys_update_name>sys_choice_x_1842888_drilling_safety_compliance_incident_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety Meeting</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>safety_meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety Inspection</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>inspection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety Incident</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Near Miss</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>near_miss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environmental Issue</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>environmental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regulatory Compliance</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>regulatory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training Record</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Permit/License</label>
+            <language>en</language>
+            <name>x_1842888_drilling_safety_compliance</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:49:02</sys_updated_on>
+            <value>permit</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

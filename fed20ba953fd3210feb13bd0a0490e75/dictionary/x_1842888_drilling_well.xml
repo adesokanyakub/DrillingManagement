@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7a954b6153317210feb13bd0a0490e0f" label="Well" max_length="40" name="x_1842888_drilling_well" type="collection">
+        <element label="Total Depth (ft)" max_length="20" name="total_depth" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Operator" max_length="100" name="operator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Production Date" max_length="40" name="first_production_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Well ID" mandatory="true" max_length="50" name="well_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="200" name="location" type="string"/>
+        <element label="Measured Depth (ft)" max_length="20" name="measured_depth" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Rig Contractor" max_length="100" name="rig_contractor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Reservoir" max_length="100" name="reservoir" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Formation" max_length="100" name="formation" type="string"/>
+        <element label="Latitude" max_length="20" name="latitude" type="decimal"/>
+        <element choice="1" label="Well Status" max_length="40" name="well_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Producing" sequence="3" value="producing"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="Suspended" sequence="4" value="suspended"/>
+                <element inactive_on_update="false" label="Drilling" sequence="1" value="drilling"/>
+                <element inactive_on_update="false" label="Plugged &amp; Abandoned" sequence="5" value="plugged"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Spud Date" max_length="40" name="spud_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Completion Date" max_length="40" name="completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Well Name" mandatory="true" max_length="100" name="well_name" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Longitude" max_length="20" name="longitude" type="decimal"/>
+        <element choice="1" label="Well Type" max_length="40" name="well_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Directional" sequence="2" value="directional"/>
+                <element inactive_on_update="false" label="Vertical" sequence="0" value="vertical"/>
+                <element inactive_on_update="false" label="Horizontal" sequence="1" value="horizontal"/>
+            </choice>
+        </element>
+    </element>
+</database>

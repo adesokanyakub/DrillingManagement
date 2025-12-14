@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0a1b67a953357210feb13bd0a0490e04" label="Cementing Operation" max_length="40" name="x_1842888_drilling_cementing_operation" type="collection">
+        <element label="Water/Cement Ratio" max_length="20" name="water_cement_ratio" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Pump Start Time" max_length="40" name="pump_start_time" type="glide_date_time"/>
+        <element label="Final Pressure (psi)" max_length="20" name="final_pressure" type="decimal"/>
+        <element label="CBL Required" max_length="40" name="cement_bond_log" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Casing Run" mandatory="true" max_length="32" name="casing_run" reference="x_1842888_drilling_casing_profile" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Additives Used" max_length="500" name="additives" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Operation Name" mandatory="true" max_length="100" name="operation_name" type="string"/>
+        <element label="Cement Density (ppg)" max_length="20" name="density" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Pump End Time" max_length="40" name="pump_end_time" type="glide_date_time"/>
+        <element label="Wait on Cement (hours)" max_length="20" name="wait_on_cement" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="2000" name="notes" type="string"/>
+        <element choice="1" default="planned" label="Status" max_length="40" name="operation_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Displacing" sequence="3" value="displacing"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="Waiting on Cement" sequence="4" value="waiting"/>
+                <element inactive_on_update="false" label="Mixing" sequence="1" value="mixing"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="Pumping" sequence="2" value="pumping"/>
+                <element inactive_on_update="false" label="Failed" sequence="6" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Cement Type" mandatory="true" max_length="40" name="cement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lightweight" sequence="3" value="lightweight"/>
+                <element inactive_on_update="false" label="Class G" sequence="0" value="class_g"/>
+                <element inactive_on_update="false" label="High Temperature" sequence="4" value="high_temp"/>
+                <element inactive_on_update="false" label="Class H" sequence="1" value="class_h"/>
+                <element inactive_on_update="false" label="Salt Resistant" sequence="5" value="salt_resistant"/>
+                <element inactive_on_update="false" label="Class A" sequence="2" value="class_a"/>
+            </choice>
+        </element>
+        <element label="Top of Cement (ft)" max_length="20" name="top_of_cement" type="decimal"/>
+        <element label="Displacement Volume (bbls)" max_length="20" name="displacement_volume" type="decimal"/>
+        <element label="Pump Rate (bbl/min)" max_length="20" name="pump_rate" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Well" mandatory="true" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element label="Bottom Hole Temperature (°F)" max_length="20" name="temperature" type="decimal"/>
+        <element label="Cement Volume (bbls)" mandatory="true" max_length="20" name="cement_volume" type="decimal"/>
+        <element label="Bottom of Cement (ft)" max_length="20" name="bottom_of_cement" type="decimal"/>
+        <index name="index">
+            <element name="casing_run"/>
+        </index>
+        <index name="index2">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

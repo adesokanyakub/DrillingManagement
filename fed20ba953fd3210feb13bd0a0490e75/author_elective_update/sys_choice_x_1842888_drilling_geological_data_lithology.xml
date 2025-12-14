@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="lithology" table="x_1842888_drilling_geological_data" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>lithology</element>
+            <name>x_1842888_drilling_geological_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>lithology</sys_name>
+            <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+            <sys_update_name>sys_choice_x_1842888_drilling_geological_data_lithology</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sandstone</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>sandstone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Limestone</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>limestone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shale</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>shale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dolomite</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>dolomite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conglomerate</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>conglomerate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coal</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>coal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salt</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:17</sys_updated_on>
+            <value>salt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anhydrite</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>anhydrite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mudstone</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>mudstone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Siltstone</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>siltstone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marl</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>marl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quartzite</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>quartzite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Granite</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>granite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Basalt</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>basalt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chert</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>chert</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gypsum</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>gypsum</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arkose</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>arkose</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Breccia</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>breccia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuff</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>tuff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lithology</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schist</label>
+            <language>en</language>
+            <name>x_1842888_drilling_geological_data</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:20:57</sys_updated_on>
+            <value>schist</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

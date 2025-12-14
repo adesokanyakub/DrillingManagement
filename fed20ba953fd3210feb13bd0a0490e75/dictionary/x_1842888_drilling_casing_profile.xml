@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86a42f6d53f17210feb13bd0a0490e06" label="Casing Profile" max_length="40" name="x_1842888_drilling_casing_profile" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="encode_utf8=false" label="Well" mandatory="true" max_length="32" name="well" reference="x_1842888_drilling_well" type="reference"/>
+        <element label="Cement Top (ft)" max_length="20" name="cement_top" type="decimal"/>
+        <element label="Cement Bottom (ft)" max_length="20" name="cement_bottom" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Installation Date" max_length="50" name="installation_date" type="string"/>
+        <element choice="1" default="planned" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Running" sequence="1" value="running"/>
+                <element inactive_on_update="false" label="Cemented" sequence="2" value="cemented"/>
+                <element inactive_on_update="false" label="Tested" sequence="3" value="tested"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+            </choice>
+        </element>
+        <element label="Inner Diameter (inches)" max_length="20" name="inner_diameter" type="decimal"/>
+        <element label="Weight (lbs/ft)" max_length="20" name="weight" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Casing Name" mandatory="true" max_length="100" name="casing_name" type="string"/>
+        <element label="Wall Thickness (inches)" max_length="20" name="wall_thickness" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Steel Grade" max_length="50" name="grade" type="string"/>
+        <element choice="1" label="Casing Type" mandatory="true" max_length="40" name="casing_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Surface" sequence="1" value="surface"/>
+                <element inactive_on_update="false" label="Intermediate" sequence="2" value="intermediate"/>
+                <element inactive_on_update="false" label="Production" sequence="3" value="production"/>
+                <element inactive_on_update="false" label="Conductor" sequence="0" value="conductor"/>
+                <element inactive_on_update="false" label="Liner" sequence="4" value="liner"/>
+            </choice>
+        </element>
+        <element label="Depth From (ft)" mandatory="true" max_length="20" name="depth_from" type="decimal"/>
+        <element label="Outer Diameter (inches)" mandatory="true" max_length="20" name="outer_diameter" type="decimal"/>
+        <element label="Depth To (ft)" mandatory="true" max_length="20" name="depth_to" type="decimal"/>
+        <index name="index">
+            <element name="well"/>
+        </index>
+    </element>
+</database>

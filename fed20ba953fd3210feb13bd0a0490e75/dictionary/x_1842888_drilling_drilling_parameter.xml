@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26950b6153317210feb13bd0a0490e9a" label="Drilling Parameter" max_length="40" name="x_1842888_drilling_drilling_parameter" type="collection">
+        <element attributes="encode_utf8=false" label="Drilling Operation" mandatory="true" max_length="32" name="drilling_operation" reference="x_1842888_drilling_drilling_operation" type="reference"/>
+        <element label="Hookload (lbs)" max_length="20" name="hookload" type="decimal"/>
+        <element label="Temperature (°F)" max_length="20" name="temperature" type="decimal"/>
+        <element label="Rate of Penetration (ft/hr)" max_length="20" name="rop" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Mud Weight (ppg)" max_length="20" name="mud_weight" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Timestamp" mandatory="true" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Mud Viscosity (cp)" max_length="20" name="mud_viscosity" type="decimal"/>
+        <element label="Block Height (ft)" max_length="20" name="block_height" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Bit Type" max_length="100" name="bit_type" type="string"/>
+        <element label="RPM" max_length="20" name="rpm" type="decimal"/>
+        <element label="Torque (ft-lbs)" max_length="20" name="torque" type="decimal"/>
+        <element label="Standpipe Pressure (psi)" max_length="20" name="standpipe_pressure" type="decimal"/>
+        <element label="Gas Reading (units)" max_length="20" name="gas_reading" type="decimal"/>
+        <element label="Current Depth (ft)" mandatory="true" max_length="20" name="depth" type="decimal"/>
+        <element label="Bit Size (inches)" max_length="20" name="bit_size" type="decimal"/>
+        <element label="Weight on Bit (lbs)" max_length="20" name="wob" type="decimal"/>
+        <element label="Alert Status" max_length="40" name="alert_status" type="boolean"/>
+        <element label="Mud Flow Rate (gpm)" max_length="20" name="mud_flow_rate" type="decimal"/>
+        <element label="Pump Pressure (psi)" max_length="20" name="pump_pressure" type="decimal"/>
+        <element label="H2S Reading (ppm)" max_length="20" name="h2s_reading" type="decimal"/>
+        <index name="index">
+            <element name="drilling_operation"/>
+        </index>
+    </element>
+</database>

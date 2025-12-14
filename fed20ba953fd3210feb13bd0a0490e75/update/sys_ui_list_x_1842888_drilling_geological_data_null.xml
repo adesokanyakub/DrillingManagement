@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1842888_drilling_geological_data" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bulk_density</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>3a41a3e553f17210feb13bd0a0490e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>depth_from</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>fa41a3e553f17210feb13bd0a0490e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>depth_to</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>be41a3e553f17210feb13bd0a0490e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>7241a3e553f17210feb13bd0a0490e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>formation_name</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>3641a3e553f17210feb13bd0a0490e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gamma_ray</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>f641a3e553f17210feb13bd0a0490e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gas_saturation</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>7e4127e553f17210feb13bd0a0490e32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hydrocarbon_shows</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>324127e553f17210feb13bd0a0490e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>lithology</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>f24127e553f17210feb13bd0a0490e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>net_to_gross</element>
+            <list_id display_value="x_1842888_drilling_geological_data" element="NULL" name="x_1842888_drilling_geological_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b641a3e553f17210feb13bd0a0490e64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_id>b64127e553f17210feb13bd0a0490e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1842888_drilling_geological_data</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-14 01:06:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b641a3e553f17210feb13bd0a0490e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1842888_drilling_geological_data</sys_name>
+            <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+            <sys_update_name>sys_ui_list_x_1842888_drilling_geological_data_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-14 01:06:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "name": "x-1842888-drilling-and",
+  "version": "1.0.0",
+  "description": "[BUILD AGENT GENERATED]:  Managing drilling operations, well completion, and production optimization, involving integration with subsurface data and reservoir modeling, customized for site-specific needs.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.1.1",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.1.1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7"
+  }
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1842888_drilling/x-1842888-drilling-and/1.0.0/package.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 23:05:18</sys_created_on>
+        <sys_id>4d467c057240499aae74513376a5668c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1842888_drilling/x-1842888-drilling-and/1.0.0/package.json</sys_name>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_module_4d467c057240499aae74513376a5668c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 23:05:18</sys_updated_on>
+    </sys_module>
+</record_update>

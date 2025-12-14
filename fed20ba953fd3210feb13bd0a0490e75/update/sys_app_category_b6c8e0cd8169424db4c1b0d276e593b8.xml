@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_category">
+    <sys_app_category action="INSERT_OR_UPDATE">
+        <default_order/>
+        <name>Drilling &amp; Well Management</name>
+        <style>border-color: #1e3a8a; background-color: #dbeafe; color: #1e3a8a;</style>
+        <sys_class_name>sys_app_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-14 00:57:15</sys_created_on>
+        <sys_id>b6c8e0cd8169424db4c1b0d276e593b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drilling &amp; Well Management</sys_name>
+        <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+        <sys_update_name>sys_app_category_b6c8e0cd8169424db4c1b0d276e593b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-14 00:57:15</sys_updated_on>
+    </sys_app_category>
+</record_update>

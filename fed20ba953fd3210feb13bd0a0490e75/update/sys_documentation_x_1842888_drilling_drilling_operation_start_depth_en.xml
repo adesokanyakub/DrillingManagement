@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="start_depth" label="Start Depth (ft)" language="en" table="x_1842888_drilling_drilling_operation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>start_depth</element>
+            <help/>
+            <hint/>
+            <label>Start Depth (ft)</label>
+            <language>en</language>
+            <name>x_1842888_drilling_drilling_operation</name>
+            <plural>Start Depth (ft)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-13 23:05:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start Depth (ft)</sys_name>
+            <sys_package display_value="Drilling And" source="x_1842888_drilling">fed20ba953fd3210feb13bd0a0490e75</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Drilling And">fed20ba953fd3210feb13bd0a0490e75</sys_scope>
+            <sys_update_name>sys_documentation_x_1842888_drilling_drilling_operation_start_depth_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-13 23:05:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
